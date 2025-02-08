@@ -260,7 +260,7 @@ function App() {
                             <div className="menu-title">
                               {item.originName} <span className="spanish-name">({item.pronunciation})</span>
                             </div>
-                            <span className="price">{item.price.toLocaleString()}원</span>
+                            <span className="price">{item.price.toLocaleString()}</span>
                             <button 
                               className="more-button"
                               onClick={(e) => {
